@@ -1,3 +1,6 @@
+module.exports = Phrase
+
+// Adds 'reverse' to all strings
 String.prototype.reverse = function(){
   return Array.from(this).reverse().join('')
 }
@@ -6,15 +9,13 @@ String.prototype.reverse = function(){
 function Phrase(content){
   this.content = content;
 
+  // Returns content processed for palindrome testing
   this.processedContent = function processedContent(){
     return this.content.toLowerCase()
   }
 
-  // Return true for palindrome, false otherwise
+  // Returns true if the phrase is a palindrome, false otherwise
   this.palindrome = function palindrome(){
     return this.processedContent() == this.processedContent().reverse()
   }
 }
-
-
-Do you have an example of an app doing this?

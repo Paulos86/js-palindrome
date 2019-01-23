@@ -1,0 +1,24 @@
+{
+  "name": "paulos-palindrome",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Paulos86/js-palindrome.git"
+  },
+  "keywords": [
+    "palindrom",
+    "learn-enough",
+    "javascript"
+  ],
+  "author": "Paul Badenhorst",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Paulos86/js-palindrome/issues"
+  },
+  "homepage": "https://github.com/Paulos86/js-palindrome#readme"
+}
