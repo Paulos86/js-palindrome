@@ -5,5 +5,5 @@ _Usage:_
 npm install paulos-palindrome
 let Phrase = require('paulos-palindrome')
 let string = new Phrase("Did I do, O God, did I as I said I’d do? Good! I did.")
-alert(string.palindrome())
+console.log(string.palindrome())
 ```
