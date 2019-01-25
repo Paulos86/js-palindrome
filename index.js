@@ -16,9 +16,9 @@ function Phrase(content){
 
   // Returns the letters in the content. For example:
   //   new Phrase("Hello, world!").letters() === 'Helloworld'
-  this.letters = function letters(){
-    // return Array.from(this.content).filter(char => char.match(/[a-z]/i)).join('')
-    return (this.content.match(/[a-z]/ig) || []).join('')
+  this.letters = function letters() {
+    const lettersRegEx = /[a-z]/gi;
+    return (this.content.match(lettersRegEx) || []).join('')
   }
 
   // Returns true if the phrase is a palindrome, false otherwise
